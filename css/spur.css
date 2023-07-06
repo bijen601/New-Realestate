@@ -12443,6 +12443,10 @@ body {
   margin-left: -40px;
 }
 
+.dash-nav-dropdown .active {
+  background-color: rgba(10, 20, 10, 255);
+}
+
 .dash-nav-dark .dash-nav-item:hover {
   background: rgba(255, 255, 255, 0.04);
 }
