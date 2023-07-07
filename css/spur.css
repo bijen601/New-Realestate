@@ -12833,16 +12833,16 @@ body {
 }
 
 @media (min-width: 992px) {
-  .row {
+  .container .row {
     margin-left: -15px;
     margin-right: -15px;
   }
   
-  .col-lg-5 {
+  .container .col-lg-5 {
     padding-right: 15px;
   }
   
-  .col-lg-6 {
+  .container .col-lg-6 {
     padding-left: 15px;
   }
 }
