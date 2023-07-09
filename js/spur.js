@@ -19,11 +19,6 @@ $(document).ready(function () {
             $(".dash").toggleClass("dash-compact");
         }
     });
-
-    $(".searchbox-toggle").click(function () {
-        $(".searchbox").toggleClass("show");
-    });
-
     // Dev utilities
     // $("header.dash-toolbar .menu-toggle").click();
     // $(".searchbox-toggle").click();
