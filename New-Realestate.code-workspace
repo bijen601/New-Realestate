@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "D:/realstate_transaction/New-Realestate"
+		},
+		{
+			"path": "D:/php"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../Users/YUJEN/Desktop/my protfolio"
+		},
+		{
+			"path": "E:/frontend"
+		},
+		{
+			"path": "D:/Tic_tac_toe"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "frontend"
+	}
+}

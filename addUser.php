@@ -62,63 +62,63 @@
 
                         <div class="col-md-8">
                             <h3 class="text-center p-2 heading1">User Details</h3>
-                            <form>
+                            <form action="add_user.php" method="POST">
                                 <div class="form-group mb-4">
                                     <label class="form-label" for="Name">Name</label>
-                                    <input type="text" id="Name" class="form-control" />
+                                    <input type="text" id="Name" class="form-control" name="name" />
                                 </div>
 
                                 <div class="form-group mb-4">
                                     <label class="form-label" for="Address">Address</label>
-                                    <input type="text" id="Address" class="form-control" />
+                                    <input type="text" id="Address" class="form-control" name="address" />
                                 </div>
 
                                 <div class="form-row">
                                     <div class="form-group col-md-6 mb-4">
                                         <label class="form-label" for="Contact">Contact</label>
-                                        <input type="tel" id="Contact" class="form-control" />
+                                        <input type="tel" id="Contact" class="form-control" name="contact"/>
                                     </div>
 
                                     <div class="form-group searchselect col-md-6 mb-4">
                                         <label class="form-label" for="District">District</label>
-                                        <select id="District" class="form-control bg-white" name=""
+                                        <select id="District" class="form-control bg-white" name="district"
                                             data-live-search="true">
                                             <option disabled selected> Select</option>
-                                            <option> dsadasdsa</option>
-                                            <option> vbmvbvb</option>
-                                            <option> vbmvbvb</option>
-                                            <option> vbmvbvb</option>
-                                            <option> vbmvbvb</option>
-                                            <option> vbmvbvb</option>
-                                            <option> vbmvbvb</option>
-                                            <option> vbmvbvb</option>
-                                            <option> vbmvbvb</option>
-                                            <option> vbmvbvb</option>
-                                            <option> vbmvbvb</option>
-                                            <option> vbmvbvb</option>
-                                            <option> vbmvbvb</option>
-                                            <option> vbmvbvb</option>
-                                            <option> vbmvbvb</option>
-                                            <option> vbmvbvb</option>
-                                            <option> vbmvbvb</option>
-                                            <option> vbmvbvb</option>
-                                            <option> vbmvbvb</option>
-                                            <option> vbmvbvb</option>
-                                            <option> vbmvbvb</option>
-                                            <option> vbmvbvb</option>
-                                            <option> vbmvbvb</option>
-                                            <option> vbmvbvb</option>
-                                            <option> vbmvbvb</option>
-                                            <option> vbmvbvb</option>
-                                            <option> vbmvbvb</option>
-                                            <option> asdasdas</option>
+                                            <option value="a"> a</option>
+                                            <option value="b"> b</option>
+                                            <option value="c"> c</option>
+                                            <option value="d"> d</option>
+                                            <option value="e"> e</option>
+                                            <option value="f"> f</option>
+                                            <option value="g"> g</option>
+                                            <option value="h"> h</option>
+                                            <option value="i"> i</option>
+                                            <option value="j"> j</option>
+                                            <option value="k"> k</option>
+                                            <option value="l"> l</option>
+                                            <option value="m"> m</option>
+                                            <option value="n"> n</option>
+                                            <option value="o"> o</option>
+                                            <option value="p"> p</option>
+                                            <option value="q"> q</option>
+                                            <option value="r"> r</option>
+                                            <option value="s"> s</option>
+                                            <option value="t"> t</option>
+                                            <option value="u"> u</option>
+                                            <option value="v"> v</option>
+                                            <option value="w"> w</option>
+                                            <option value="x"> x</option>
+                                            <option value="y"> y</option>
+                                            <option value="z"> z</option>
+                                            <option value="aa"> aa</option>
+                                            <option value="bb"> bb</option>
                                         </select>
                                     </div>
                                 </div>
 
                                 <div class="form-group mb-4">
                                     <label class="form-label" for="Liscense">Liscense</label>
-                                    <input type="text" id="Liscense" class="form-control" />
+                                    <input type="text" id="Liscense" class="form-control" name="liscense"/>
                                 </div>
 
                                 <div class="text-center">
