@@ -10,9 +10,8 @@ $liscence = $_POST["liscense"];
 // insert
 $stmt = $conn->prepare("INSERT INTO user (name, address, contact, district, liscense) VALUES (?, ?, ?,?,?)");
 $stmt->bind_param("sssss", $name, $address, $contact,$district,$liscence);
-$stmt->execute();
 if (!$stmt->execute()) {
-    die("SQL error: " . $stmt->error);
+    die("SQL error: " . $stmt->error);  
 } else {
     echo "user added";
 }
