@@ -37,8 +37,6 @@
                 </div>
             </nav>
         </div>
-
-
         <div class="dash-app">
             <header class="dash-toolbar">
                 <a href="#!" class="menu-toggle"><i class="fas fa-bars"></i></a>
@@ -62,38 +60,38 @@
 
                         <div class="col-md-8">
                             <h3 class="text-center p-2 heading1">Property Details</h3>
-                            <form>
+                            <form action="addpropertydb.php" method="POST">
                                 <div class="form-group mb-4">
                                     <label class="form-label" for="Name">Owner Name</label>
-                                    <input type="text" id="Name" class="form-control" />
+                                    <input type="text" id="Name" class="form-control" name="ownername" />
                                 </div>
 
 
                                 <div class="form-group mb-4">
                                     <label class="form-label" for="VDC/Muncipality">VDC/Muncipality</label>
-                                    <input type="" id="VDC/Muncipality" class="form-control" />
+                                    <input type="" id="VDC/Muncipality" class="form-control" name="vdc"/>
                                 </div>
 
                                 <div class="form-row">
                                     <div class="form-group col-md-4 mb-4">
                                         <label class="form-label" for="Ward">Ward No.</label>
-                                        <input type="number" id="Ward" class="form-control" />
+                                        <input type="number" id="Ward" class="form-control" name="ward" />
                                     </div>
 
                                     <div class="form-group col-md-4 mb-4">
                                         <label class="form-label" for="Street">Street No.</label>
-                                        <input type="number" id="Street" class="form-control" />
+                                        <input type="number" id="Street" class="form-control" name="street" />
                                     </div>
 
                                     <div class="form-group col-md-4 mb-4">
                                         <label class="form-label" for="Kitta">Kitta No.</label>
-                                        <input type="number" id="Kitta" class="form-control" />
+                                        <input type="number" id="Kitta" class="form-control" name="kitta" />
                                     </div>
                                 </div>
 
                                 <div class="form-group mb-4">
                                     <label class="form-label" for="Area">Area</label>
-                                    <input type="text" id="Area" class="form-control" />
+                                    <input type="text" id="Area" class="form-control" name="area" />
                                 </div>
 
                                 <div class="text-center">

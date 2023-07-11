@@ -33,13 +33,13 @@
                             <!-- Email input -->
                             <div class="form-outline mb-4">
                                 <label class="form-label" for="loginName">Email or username</label>
-                                <input type="email" id="loginName" class="form-control" name="email"/>
+                                <input type="email" id="loginName" class="form-control" name="email" required />
                             </div>
 
                             <!-- Password input -->
                             <div class="form-outline mb-4">
                                 <label class="form-label" for="loginPassword">Password</label>
-                                <input type="password" id="loginPassword" class="form-control" name="password"/>
+                                <input type="password" id="loginPassword" class="form-control" name="password" required/>
                             </div>
 
                             <!-- Submit button -->
@@ -62,25 +62,25 @@
                             <!-- Name input -->
                             <div class="form-outline mb-4">
                                 <label class="form-label" for="registerName">Name</label>
-                                <input type="text" id="registerName" class="form-control" name="name" />
+                                <input type="text" id="registerName" class="form-control" name="name"  required/>
                             </div>
 
                             <!-- Username input -->
                             <div class="form-outline mb-4">
                                 <label class="form-label" for="registerUsername">Username</label>
-                                <input type="text" id="registerUsername" class="form-control" name="username"/>
+                                <input type="text" id="registerUsername" class="form-control" name="username" required />
                             </div>
 
                             <!-- Email input -->
                             <div class="form-outline mb-4">
                                 <label class="form-label" for="registerEmail">Email</label>
-                                <input type="email" id="registerEmail" class="form-control" name="email" />
+                                <input type="email" id="registerEmail" class="form-control" name="email" required/>
                             </div>
 
                             <!-- Password input -->
                             <div class="form-outline mb-4">
                                 <label class="form-label" for="registerPassword">Password</label>
-                                <input type="password" id="registerPassword" class="form-control" name="password" />
+                                <input type="password" id="registerPassword" class="form-control" name="password" required/>
                             </div>
 
                             <!-- Submit button -->
